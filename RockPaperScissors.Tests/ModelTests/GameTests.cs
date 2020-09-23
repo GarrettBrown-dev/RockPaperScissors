@@ -22,10 +22,28 @@ namespace RockPaperScissors.Tests
 
     [TestMethod]
 
-    public void CheckVictory_CheckIfThereIsADraw_Game()
+    public void CheckMove_CheckIfThereIsAVictoryForPlayerOne_Game()
     {
       Game newGame = new Game();
-      Assert.AreEqual("Player 1 wins!", newGame.CheckVictory("Rock", "Scissors"));
+      Assert.AreEqual("Player One Wins!", newGame.CheckMove("Scissors", "Paper"));
     }
+
+    [TestMethod]
+
+    public void CheckMove_CheckIfThereIsALossForPlayerOne_Game()
+    {
+      Game newGame = new Game();
+      Assert.AreEqual("Player Two Wins!", newGame.CheckMove("Paper", "Scissors"));
+    }
+
+    // [TestMethod]
+    // public void CheckMove_CheckIfThereIsALossForPlayerOne_Game()
+    // {
+    //   string description = "Player Two Wins!";
+    //   Game newGame = new Game(description);
+
+    //   string result = check
+
+    // }
   }
 }
