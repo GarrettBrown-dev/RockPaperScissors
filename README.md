@@ -1,6 +1,6 @@
 # _Rock, Paper, Scissors Game_
 
-#### _{Brief description of application}, 9.23.20_
+#### _This application will allow you to play Rock, Paper, Scissors against a computer or a friend, 9.23.20_
 
 #### By _**Chloe Hellberg and Garrett Brown**_
 
@@ -46,9 +46,9 @@ Test#3
 
 Test#4
 
-- Describe:
-- Input:
-- Output:
+- Describe: Create a method that will take in a randomized computer input and determine who is the winner and who is the loser
+- Input: computerChoice = Rock; userChoice = Scissors
+- Output: Player wins, computer loses.
 
 ## Setup/Installation Requirements
 
