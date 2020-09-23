@@ -1,7 +1,18 @@
-using System;
-using System.Collections.Generic;
-
-namespace Game.Models
+namespace RockPaperScissors.Models
 {
+  public class Game
+  {
+    public string CheckDraw(string playerOneMove, string playerTwoMove)
+    {
+      if (playerOneMove == playerTwoMove)
+      {
+        return "It's a draw";
+      }
+      else
+      {
+        return "error";
+      }
+    }
+  }
 
 }

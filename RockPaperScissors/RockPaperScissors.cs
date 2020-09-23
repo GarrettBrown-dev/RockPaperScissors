@@ -1,12 +1,12 @@
 using System;
 
-namespace Game
+namespace RockPaperScissors
 {
   public class Program
   {
     public static void Main()
     {
-      
+
     }
   }
 }
